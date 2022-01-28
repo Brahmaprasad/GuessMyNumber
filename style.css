@@ -1,0 +1,64 @@
+body{
+	text-align: center;
+	background-color: skyblue;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0px;
+	border: 0px;
+}
+h1{
+	text-align: center;
+	margin-top: 200px;
+	user-select: none;
+	color: white;
+}
+h4{
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+	user-select: none;
+	color: white;
+}
+#player-info{
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#guessinput{
+	border: none;
+	color: white;
+	text-shadow: 0 0 0 gray;
+	text-align: center;
+	width: 150px;
+	height: 100px;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 50px;
+	background-color: dimgrey;
+	caret-color: dimgrey;
+}
+
+#guessinput:focus{
+	outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#response{
+	width:300px;
+	margin: auto;
+}
+
+#guessHistory{
+	margin-top: 56px;
+}
+
+#guessHistory > div{
+	height: 50px;
+	width: 80px;
+	margin: 5px;
+}
